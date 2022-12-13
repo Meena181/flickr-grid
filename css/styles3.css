@@ -1,0 +1,61 @@
+@font-face{
+	font-family: ProximaNova;
+	src: url("../fonts/Proxima Nova Font.otf");
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	font-family: ProximaNova;
+}
+
+header{
+	height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+ul{
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    list-style: none;
+    font-family: sans-serif;
+}
+.sprite-flickr{
+	background: url("../images/sprite.png") no-repeat;
+}
+
+a{
+	color: white;
+    height: 10px;
+    width: 60px;
+    background-color: #128FDC;
+    padding: 8px 22px;
+    border-radius: 3px;
+}
+
+a:hover{
+	opacity: .8;
+}
+.uploadcloud{
+	background-position: -822px -895px;
+	width:62px;
+	height:41px;
+	display: block;
+	transform: scale(0.5);
+}
+.searchbar{
+    width: 310px;
+    height: 27px;
+    background-color: #d8d1d1;
+}
+.lens{
+	background-position: -991px -127px;
+	width:48px;
+	height:46px;
+	display: block;
+	transform: scale(0.5);
+}

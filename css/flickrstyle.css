@@ -1,0 +1,68 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	border: none;
+}
+
+.sprite-flickr{
+	background: url(../images/sprite.png) no-repeat;
+	display: block;
+}
+
+/*.blue{
+	background: url(../images/sprite.png)-300px -198px;
+	height: 81px;
+	width: 81px;
+}
+.pink{
+	background: url(../images/sprite.png)-397px -198px;
+	height: 81px;
+	width: 81px;
+}
+.flickrlogo{
+	background: url(../images/sprite.png)0px -468px;
+	height: 303px;
+	width: 94px;
+}*/
+button{
+	height: 32px;
+    width: 97px;
+    font-family: Proxima Nova,helvetica neue,helvetica,arial,sans-serif;
+    background-color: #128FDC;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+header{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+.header2{
+    height: 50px;
+    width: 1152px;
+    border-bottom: 1px solid #9e9e9e6b;
+}
+a{
+	color: grey;
+}
+ul{
+	display: flex;
+    color: white;
+    list-style: none;
+    font-family: Proxima Nova,helvetica neue,helvetica,arial,sans-serif;
+    width: 35%;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 228px;
+    justify-content: space-evenly
+}
+.searchbar{
+    height: 35px;
+    width: 25%;
+    background-color: grey;
+}
+p{
+	color: white;
+}

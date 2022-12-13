@@ -1,0 +1,62 @@
+@font-face{
+	font-family: ProximaNova;
+	src: url("../fonts/Proxima Nova Font.otf");
+}
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-family: ProximaNova;
+}
+
+ul{
+	width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    height: 50px;
+    background-color: #202022;
+    color: #FFF;
+}
+.sprite-flickr{
+	background: url("../images/sprite.png") no-repeat;
+}
+
+.logo {
+    background-position: 0 -481px;
+    width: 220px;
+    height: 50px;
+    display: block;
+    transform: scale(0.5);
+} 
+.searchbox{
+    height: 33px;
+    width: 392px;
+    background-color: #dad8d8;
+}
+.lens{
+	background-position: -629px -384px;
+	width: 37px;
+	height: 37px;
+	display: block;
+	transform: scale(0.5);
+}
+.cloudupload{
+	background-position: -824px -896px;
+	width: 60px;
+	height: 40px;
+	display: block;
+	transform: scale(0.5);
+}
+a{
+    color: white;
+    height: 10px;
+    width: 60px;
+    background-color: #128FDC;
+    padding: 8px 22px;
+    border-radius: 3px;
+}
+.button{
+	padding-right: 	127px;
+}
